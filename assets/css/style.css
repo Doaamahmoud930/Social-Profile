@@ -1,0 +1,38 @@
+:root{
+  --hoverColor:#C2F826;
+  --primaryColor:#1F1F1F;
+  --secondryColor:#333333;
+}
+@font-face {
+    font-family: semiBold;
+    src: url(../fonts/static/Inter-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Regular;
+    src: url(../fonts/static/Inter-Regular.ttf);
+  }
+body{
+    background-color: #141414;
+    font-family: semiBold;
+}
+.profileBio{
+  font-family: Regular;
+}
+.profileContainer{
+  background-color: var(--primaryColor);
+  border-radius: 15px;
+}
+.profileContacts div{
+  background-color: var(--secondryColor);
+}
+.profileContacts div:hover{
+  background-color: var(--hoverColor);
+  color: black;
+}
+
+.profileLoc{
+  color: var(--hoverColor);
+}
+
+
+
